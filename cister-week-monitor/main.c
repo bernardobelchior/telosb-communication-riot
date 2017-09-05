@@ -73,7 +73,7 @@ int monitor(char *addr, int port)
             printf("Sent packet with %d bytes!\n", res);
         }
 
-        xtimer_sleep(5);
+        xtimer_sleep(2);
         LED0_OFF;
         LED1_OFF;
     }
